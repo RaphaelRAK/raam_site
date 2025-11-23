@@ -8,8 +8,8 @@ const advantages = [
     description: 'Vos données ne quittent jamais votre téléphone. Aucune synchronisation cloud, aucun serveur externe.',
   },
   {
-    title: 'Gratuit et Sans Publicité',
-    description: 'Application entièrement gratuite sans publicités intrusives.',
+    title: 'Application Gratuite',
+    description: 'Application entièrement gratuite avec toutes les fonctionnalités disponibles.',
   },
   {
     title: 'Fonctionne Hors Ligne',

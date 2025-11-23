@@ -28,15 +28,24 @@ export default function Header() {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
-            <Link href="#features" className="text-gray-700 hover:text-purple-600 transition-colors">
-              Fonctionnalités
+          <div className="hidden md:flex items-center space-x-6">
+            <Link href="/transactions" className="text-gray-700 hover:text-purple-600 transition-colors">
+              Transactions
             </Link>
-            <Link href="#screenshots" className="text-gray-700 hover:text-purple-600 transition-colors">
-              Captures d'écran
+            <Link href="/statistiques" className="text-gray-700 hover:text-purple-600 transition-colors">
+              Statistiques
+            </Link>
+            <Link href="/comptes" className="text-gray-700 hover:text-purple-600 transition-colors">
+              Comptes
+            </Link>
+            <Link href="/securite" className="text-gray-700 hover:text-purple-600 transition-colors">
+              Sécurité
+            </Link>
+            <Link href="/personnalisation" className="text-gray-700 hover:text-purple-600 transition-colors">
+              Personnalisation
             </Link>
             <Link href="/help" className="text-gray-700 hover:text-purple-600 transition-colors">
-              Centre d'aide
+              Aide
             </Link>
             <a
               href="https://play.google.com/store/apps/details?id=com.flutbudget.app"
@@ -76,25 +85,46 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4 space-y-4">
             <Link
-              href="#features"
+              href="/transactions"
               className="block text-gray-700 hover:text-purple-600 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Fonctionnalités
+              Transactions
             </Link>
             <Link
-              href="#screenshots"
+              href="/statistiques"
               className="block text-gray-700 hover:text-purple-600 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Captures d'écran
+              Statistiques
+            </Link>
+            <Link
+              href="/comptes"
+              className="block text-gray-700 hover:text-purple-600 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Comptes
+            </Link>
+            <Link
+              href="/securite"
+              className="block text-gray-700 hover:text-purple-600 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Sécurité
+            </Link>
+            <Link
+              href="/personnalisation"
+              className="block text-gray-700 hover:text-purple-600 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Personnalisation
             </Link>
             <Link
               href="/help"
               className="block text-gray-700 hover:text-purple-600 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Centre d'aide
+              Aide
             </Link>
             <a
               href="https://play.google.com/store/apps/details?id=com.flutbudget.app"
